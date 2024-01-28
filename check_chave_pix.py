@@ -7,7 +7,6 @@ def chavePix(chave):
   if '@' in chave:
     return('Tipo: E-mail')
   
-
   elif len(chave) == 36 and len(chave.split('-')) == 5:
     return('Tipo: Chave aleatória')
   
