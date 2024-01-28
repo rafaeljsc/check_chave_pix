@@ -1,6 +1,5 @@
 import os
 from validate_docbr import CPF, CNPJ
-os.system('cls')
 
 def chavePix(chave):
   chave = chave.strip()
